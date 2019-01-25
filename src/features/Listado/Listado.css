@@ -1,0 +1,82 @@
+.main__loading {
+  height: 100vh;
+  text-align: center;
+}
+
+.main__loading img {
+  margin-top: 5rem;
+  animation: App-logo-spin infinite 20s linear;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.main__buttons-container {
+  display: flex;
+  margin: 0 auto;
+  max-width: 64rem;
+}
+
+.main__buttons-container button {
+  flex: 1 1 auto;
+  padding: 1rem;
+  -webkit-appearance: none;
+  appearance: none;
+  border: 0 none;
+  border-radius: 4px;
+  margin: 0 .5rem;
+  cursor: pointer;
+  transition: all .3s  ease-in-out;
+}
+
+.main__buttons-container button:hover {
+  background-color: #256B12;
+  color: #fff;
+}
+
+.main__buttons-container .active {
+  background-color: #448F30;
+  color: #fff;
+}
+
+.main__listado {
+  list-style-type: none;
+}
+
+.main__listado__item {
+  margin-bottom: 1.875rem;
+  border-top: 1px solid #6CB359;
+}
+
+.main__listado__item h5 {
+  font-size: 1rem;
+}
+
+.main__listado__item small {
+  background-color: #448F30;
+  border-radius: 100%;
+  padding: .875rem;
+  margin-right: .5rem;
+}
+
+.main__listado__item__details {
+  list-style-type: disc;
+  list-style-position: inside;
+  font-weight: 100;
+  padding: 0;
+  font-size: .875rem;
+}
+
+.main__listado__item__details span {
+  font-weight: 500;
+}
+
+.main__listado__item__details li {
+  margin-bottom: .625rem;
+}
